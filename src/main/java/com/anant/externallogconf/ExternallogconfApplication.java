@@ -27,7 +27,7 @@ public class ExternallogconfApplication implements CommandLineRunner {
 		LOGGER.warn("|                                                              |");
 		LOGGER.warn("+==============================================================+");
 
-		Configurator.initialize(null, "E:\\Softwares\\apache-tomcat-9.0.26\\conf\\log4j2.xml");
+		Configurator.initialize(null, "/path/to/external/log4j2.xml");
 
 		LOGGER.warn("\n\n");
 		LOGGER.warn("+==================================================+");
