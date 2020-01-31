@@ -5,7 +5,7 @@ Hence the log4j.xml can be kept on a fixed path without keeping it inside the wa
 
 ## Configuring the path for log4j.xml
 1. Open the class with the main method.
-2. Implements the interface org.springframework.boot.CommandLineRunner in the class.
+2. Implements the interface ```org.springframework.boot.CommandLineRunner``` in the class.
 3. The implementation of this interface runs specific pieces of code when an application is fully started.
 4. In the overriden run method in the main class, add the following:
 ```
